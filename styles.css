@@ -1,0 +1,69 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+ 
+}
+
+.corner-menu {
+    position: centre;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #333;
+}
+
+.corner-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px; /* Chừa khoảng trống để tránh che phủ menu */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#categoryFilter {
+    padding: 8px;
+    font-size: 14px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#drugList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.drugItem {
+    margin: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.drugLink {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
